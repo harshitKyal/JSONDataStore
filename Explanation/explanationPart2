@@ -1,0 +1,134 @@
+
+
+1. As mentioned in part2 of first assignment , I have to write 3 javascript funtions.
+
+	1. Write a function to take pokemon’s name as argument and display the information of that pokemon.
+
+
+		var findPokemonByName = function(pokemonName, pokemonObject) {
+
+		    //flag to check if result is found or not
+		    var flag = 0;
+		    var arrayIndex;
+		    //to loop through the pokemon array
+		    for (arrayIndex in pokemonObject.pokemon) {
+		        //convert name to lower and parameter to lower by .toLowerCase function
+		        if (pokemonObject.pokemon[arrayIndex].name.toLowerCase() == pokemonName.toLowerCase()) {
+		            flag = 1;  //set the flag value
+		            break;  //break out of the loop whenever it matches the output
+		        } else {
+		            //do nothing
+		        }
+		    } //end loop through pokemon array
+
+		    if (flag == 1) {
+		        console.log("Pokemon found at location :" + (Number(arrayIndex) + 1))
+		        console.log(pokemonObject.pokemon[arrayIndex])
+		    } else
+		        console.log("Pokemon with Name "+ pokemonName + " not found")
+
+		}
+
+		
+	- function findPokemonByName will take pokemonObject and name of the pokemon as an argument and the 	output will be the pokemon info.
+	
+	- calling of function
+  
+		findPokemonByName("Mehwtwo", pokemonDataSet)
+
+		-here "Mehwtwo" is the namme of the pokemon and pokemonDataSet is the object . Function will loop through the pokemon array and will match the pokemon name . If it finds then it will print pokemon info otherwise will print not found.
+		
+
+
+	2. Write a function that takes pokemon’s name as an argument and find out which all pokemon have that 		name in their “next_evolution” field.
+
+		var findPokemonByNextEvolution = function(pokemonName, pokemonObject) {
+
+		    //flag to check if result is found or not
+		    var flag = 0;
+		    var arrayIndex;
+		    var resultArray = []
+		    //to loop through the pokemon array
+		    for (arrayIndex in pokemonObject.pokemon) {
+		        //loop through nextEvolution array
+		        for (nextEvolution in pokemonObject.pokemon[arrayIndex].next_evolution) {
+		            //convert name to lower and parameter to lower by .toLowerCase function
+		            if (pokemonObject.pokemon[arrayIndex].next_evolution[nextEvolution].name.toLowerCase() == pokemonName.toLowerCase()) {
+		                //push pokemon name to result array
+		                resultArray.push(pokemonObject.pokemon[arrayIndex].name)
+		                flag = 1  //set the flag value
+		                break;  //break out of the loop whenever it matches the output
+		            } else {
+		                //do nothing
+		            }
+		        }//end loop through nextEvolution array
+
+		    }//end loop through pokemon array
+
+		    if (flag){
+		            console.log("Following is/are the pokemon's list who had " + pokemonName + " named in next Evolution")
+		            console.log(resultArray) 
+		    }
+		    else
+		        console.log("Pokemon " + pokemonName + " is not found in anyone's next Evolution")
+
+		}
+
+
+		
+	- findPokemonByNextEvolution function will find the pokemon's list who had pokemonName in next Evolution
+	
+	- First for loop will loop through the array of pokemon then in every element of pokemon it will loop through the evolution array and will match the name
+	
+	- calling of function
+	
+		findPokemonByNextEvolution("Venusaur", pokemonDataSet)
+
+	-The pokemon name "Venusaur" and the object is pokemonDataSet . 
+
+
+	3. Write a function that take a “Weakness” as an input and gives the names of all pokemon who have 		that Weakness. (check the weakness array in the datasese)
+
+		//function to find pokemon by weakness
+		var findPokemonByWeakness = function(weaknessName, pokemonObject) {
+
+		    //flag to check if result is found or not
+		    var flag = 0;
+		    var count = 0;
+		    var arrayIndex;
+		    var resultArray = []
+		    //to loop through the pokemon array
+		    for (arrayIndex in pokemonObject.pokemon) {
+		         //loop through weaknessIndex array
+		        for (weaknessIndex in pokemonObject.pokemon[arrayIndex].weaknesses) {
+		            //convert name to lower and parameter to lower by .toLowerCase function
+		            if (pokemonObject.pokemon[arrayIndex].weaknesses[weaknessIndex].toLowerCase() == weaknessName.toLowerCase()) {
+		                //push pokemon name to result array
+		                resultArray.push(pokemonObject.pokemon[arrayIndex].name.toLowerCase())
+		                flag = 1  //set the flag value
+		                break //break out of the loop whenever it matches the output
+		            } else {
+		                //do nothing
+		            }
+		        }//end loop through weaknessIndex array
+
+		    }//end loop through pokemon array
+		    if (flag){
+		            console.log("Following is/are the pokemon's list having weakness as a " + weaknessName  )
+		            console.log(resultArray)
+		    }
+		    else
+		        console.log("Weakness " + weaknessName + " is not found with any Pokemon")
+
+		}
+
+
+
+	- findPokemonByWeakness funtion will take weakness and the pokemon's object as an argument and will display the pokemon's list having that weakness . 
+
+	- calling of function 
+
+
+		findPokemonByWeakness("Bug", pokemonDataSet)
+
+	- Here weakness name is bug and function will return array of pokemon name having "bug" as a weakness

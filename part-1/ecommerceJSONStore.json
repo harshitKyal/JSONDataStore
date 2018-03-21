@@ -1,0 +1,248 @@
+[
+{
+		"productType": "Mobile",
+		"productId": "P01",
+		"productTitle": "Apple Iphone 6 (Space Grey , 64 GB)",
+		"productRating": "4.9 / 5",
+		"productPrice": "50000 INR ",
+		"specialOffer": null,
+		"productDiscount": null,
+		"availableUnits": 10,
+		"specification": {
+
+			"modelNumber": 1548665,
+			"modelName": "iPhone 6",
+			"DisplayFeature": {
+
+				"display": "4.7 inch Retina HD Dislay",
+				"resolution": "1334 x 750 Pixels",
+				"resolutionType": "Retina HD Display"
+			},
+			"camera": {
+
+				"frontCamera": "1.2MP",
+				"rearCamera": "8MP"
+			},
+			"OsFeature": {
+
+				"OperatingSystem": "iOS 9",
+				"processorType": "A8 Chip with 64-bit Architecture and M8 Motion Cp - processsor "
+			},
+			"SIMType": "Single",
+			"touchScreen": true,
+			"OTGCompatible": false,
+			"colour": "Space Grey",
+			"size": "64 Gb"
+		},
+		"paymentOption": [
+
+			"Cash on Delivery",
+			"Net Banking and Credit/Debit/ATM card",
+			"No Cost EMI"
+		],
+		"productWarranty": "One Year Manufacture",
+		"productReviews": [
+
+			{
+				"reviewTitle": "Satisfactory",
+				"reviewStar": "4 / 5",
+				"reviewDescription": "Very Good Product Recieved"
+			},
+			{
+				"reviewTitle": "Bad Product",
+				"reviewStar": "1 / 5",
+				"reviewDescription": "Horrible Product"
+			}
+		],
+		"sellerName": "ABC from banglore"
+	},
+
+	{
+
+		"productType": "Mobile",
+		"productId": "P02",
+		"productTitle": "Apple Iphone 7 (Gold , 32 GB)",
+		"productRating": "4.9 / 5",
+		"productPrice": "70000 INR ",
+		"specialOffer": null,
+		"productDiscount": null,
+		"availableUnits": 15,
+		"specification": {
+
+			"modelNumber": 1648665,
+			"modelName": "iPhone 7",
+			"DisplayFeature": {
+
+				"display": "4.7 inch Retina HD Dislay",
+				"resolution": "1334 x 750 Pixels",
+				"resolutionType": "Retina HD Display"
+			},
+			"camera": {
+
+				"frontCamera": "5MP",
+				"rearCamera": "12MP"
+			},
+			"OsFeature": {
+
+				"OperatingSystem": "iOS 10",
+				"processorType": "A8 Chip with 64-bit Architecture and M8 Motion Cp - processsor "
+			},
+			"SIMType": "Single",
+			"touchScreen": true,
+			"OTGCompatible": false,
+			"colour": "Gold",
+			"size": "32 Gb"
+		},
+		"paymentOption": [
+
+			"Cash on Delivery",
+			"Net Banking and Credit/Debit/ATM card",
+			"No Cost EMI"
+		],
+		"productWarranty": "One Year Manufacture",
+		"productReviews": [
+
+			{
+				"reviewTitle": "Satisfactory",
+				"reviewStar": "4 / 5",
+				"reviewDescription": "Very Good Product Recieved"
+			},
+			{
+				"reviewTitle": "Bad Product",
+				"reviewStar": "1 / 5",
+				"reviewDescription": "Horrible Product"
+			}
+		],
+		"sellerName": "DEF from Mumbai"
+	},
+
+	{
+
+		"productType": "Tshirt",
+		"productId": "P03",
+		"productTitle": "Trial Room Solid Men's Polo Neck Black T-Shirt",
+		"productRating": "3.3 / 5",
+		"productPrice": "331 INR",
+		"specialOffer": null,
+		"productDiscount": "44% off",
+		"availableUnits": 5,
+		"specification": {
+
+			"styleCode": "TSHA103BLK",
+			"productName": "Regular Fit Polo Neck T-shirt",
+			"neckType": "Polo Neck",
+			"idealFor": "Men",
+			"size": "XXL",
+			"colour": "Red",
+			"pattern": "Solid",
+			"fabric": "Coton"
+		},
+		"paymentOption": [
+
+			"Cash on Delivery",
+			"Net Banking and Credit/Debit/ATM card",
+			"No Cost EMI"
+		],
+		"productWarranty": "Six Months",
+		"productReviews": [
+
+			{
+				"reviewTitle": "Fair",
+				"reviewStar": "3 / 5",
+				"reviewDescription": "Product is ok.Quality is not upto the mark"
+			},
+			{
+				"reviewTitle": "Awesome",
+				"reviewStar": "4 / 5",
+				"reviewDescription": "Fits perfectly , Excellent Quality"
+			}
+		],
+		"sellerName": "Fashion pvt. limited from Mumbai"
+	},
+
+	{
+
+		"productType": "Books",
+		"productId": "P04",
+		"productTitle": "A Hand Book on Computer Science & It(Made Easy)",
+		"productRating": "4.0 / 5",
+		"productPrice": "220 INR",
+		"specialOffer": "10% off on axis bank debit cards",
+		"productDiscount": null,
+		"availableUnits": 1,
+		"specification": {
+
+			"ISBN": 9783989643240,
+			"publsher": "Made Easy Pubkications - New Delhi",
+			"Contributors": {
+
+				"author": "Made Easy"
+			}
+		},
+		"paymentOption": [
+
+			"Cash on Delivery",
+			"Net Banking"
+		],
+		"productWarranty": "10 days Replacement Policy",
+		"productReviews": [
+
+			{
+				"reviewTitle": "Userfull Book",
+				"reviewStar": "4 / 5",
+				"reviewDescription": "Great organization of formulas for revision"
+			},
+			{
+				"reviewTitle": "Nice Book For Quick Revision",
+				"reviewStar": "5 / 5",
+				"reviewDescription": "This Book os very good for quick revision of concepts"
+			}
+		],
+		"sellerName": "Lucky Book Store From surat"
+	},
+  
+  {
+
+		"productType": "Shoes",
+		"productId": "P05",
+		"productTitle": "Puma Hip Hop 5 Ind.Men Canvas Sneakers (Black)",
+		"productRating": "4.0 / 5",
+		"productPrice": "1180 INR",
+		"specialOffer": "10% off on axis bank debit cards",
+		"productDiscount": "20% off",
+		"availableUnits": 50,
+		"specification": {
+
+			"modelName": "Hip Hop 5 Ind. Men",
+      "idealFor" : "Men",
+			"occasion": "Casual",
+			"weight" :"328g",
+      "style" : "Panel and Stitch Detail , Textured detail",
+      "tipShape" : "Round",
+      "colour" : "Black"
+      
+		},
+		"paymentOption": [
+
+			"Cash on Delivery",
+			"Net Banking ",
+      "Debit Card"
+		],
+		"productWarranty": "30 Days Exchange Policy",
+		"productReviews": [
+
+			{
+				"reviewTitle": "Just Wow!",
+				"reviewStar": "5 / 5",
+				"reviewDescription": "Amazing Shoes and Thanks Flipkart"
+			},
+			{
+				"reviewTitle": "Must buy!",
+				"reviewStar": "5 / 5",
+				"reviewDescription": "The shoes are great , a great companion for occasions. "
+			}
+		],
+		"sellerName": "RetailNet"
+	}
+
+]
